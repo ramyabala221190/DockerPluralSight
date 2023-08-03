@@ -1,3 +1,7 @@
+Docker build command will take care of creating the angular dist build,nginx configuration and also creating the image.
+The Docker run command will run the image to create a container.
+Your application can then be accessed in the browser.
+
 1. What is docker ?
 Simplifies building ,shipping code to different environments and runnning apps.
 Relies on Images and Containers.
