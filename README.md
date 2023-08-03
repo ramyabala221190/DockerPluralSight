@@ -67,17 +67,15 @@ Multi Stage Docker file
 
 https://github.com/DanWahlin/Angular-Core-Concepts/blob/main/config/nginx.conf
 
-
+Important commands to clean up the system:
 docker ps -a
-
 docker system prune
-
 docker rmi <image name>
 
-
 docker-compose uses the docker-compose.yml file to build the image and to run the containers
-Its mainly used to run multiple containers eg: angular and any server side framework
+Its mainly used to run multiple containers eg: angular and any server side framework.
+If not needed we need to manually enter the docker build and docker run commands.
+Not using the compose file. Just included in the project for info.
 
-If not needed we need to manually enter the docker build and docker run commands
-
+The server folder is only required if you have the server config also in the same project.
 A container registry contains docker images.
